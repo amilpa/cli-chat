@@ -4,8 +4,7 @@
   "description": "",
   "main": "client.js",
   "scripts": {
-    "client_1": "nodemon client1.js",
-    "client_2": "nodemon client2.js",
+    "chat": "node client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
@@ -13,8 +12,5 @@
   "license": "ISC",
   "dependencies": {
     "socket.io-client": "^4.7.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
